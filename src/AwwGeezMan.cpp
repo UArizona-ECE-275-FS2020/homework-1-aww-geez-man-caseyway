@@ -39,22 +39,17 @@ int main(int ac, char** av) {
 
     int start = atoi(av[1]);
     int stop = atoi(av[2]);
-    int step;
+    int step = 1;
 
-    std::string dimension;
-
-    if (ac == 4) {
-        step = 1;
-        dimension = av[ac - 1];
-    }
-    else {
+    if (ac != 4) {
         step = atoi(av[3]);
-        dimension = av[ac - 1];
     }
 
     // Depending on the dimension of the arguments, call the appropriate Morty
     // function
-
+        
+    std::string dimension = *(av + ac - 1);
+    
     if (dimension == "Z286") {
         if (step == 1) {
             Z286::Morty(start, stop);

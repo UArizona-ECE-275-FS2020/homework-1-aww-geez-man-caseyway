@@ -7,6 +7,7 @@
 					   |___/            |_|   |_|
 */
 
+#pragma once
 #include <string> 
 #include <iostream>
 
