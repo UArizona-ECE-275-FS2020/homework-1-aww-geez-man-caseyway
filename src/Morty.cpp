@@ -21,13 +21,13 @@ namespace C137 {
         for (int i = start; i <= stop; i = i + step) {
             std::cout << i << ": ";
 
-            if (i % 3 == 0) {
+            if ((i % 3) == 0) {
                 std::cout << "Aww";
             }
-            else if (i % 5 == 0) {
+            else if ((i % 5) == 0) {
                 std::cout << "Geez";
             }
-            else if (i % 15 == 0) {
+            else if ((i % 15) == 0) {
                 std::cout << "Aww Geez Man";
             }
             std::cout << std::endl;
@@ -40,13 +40,13 @@ namespace C137 {
         for (int i = start; i <= stop; i = i++) {
             std::cout << i << ": ";
 
-            if (i % 3 == 0) {
+            if ((i % 3) == 0) {
                 std::cout << "Aww";
             }
-            else if (i % 5 == 0) {
+            else if ((i % 5) == 0) {
                 std::cout << "Geez";
             }
-            else if (i % 15 == 0) {
+            else if ((i % 15) == 0) {
                 std::cout << "Aww Geez Man";
             }
             std::cout << std::endl;
@@ -65,13 +65,13 @@ namespace Z286 {
         for (int i = start; i <= stop; i = i + step) {
             std::cout << i << ": ";
 
-            if (i % 3 == 0) {
+            if ((i % 3) == 0) {
                 std::cout << "wwA";
             }
-            else if (i % 5 == 0) {
+            else if ((i % 5) == 0) {
                 std::cout << "zeeG";
             }
-            else if (i % 15 == 0) {
+            else if ((i % 15) == 0) {
                 std::cout << "naM zeeG wwA";
             }
             std::cout << std::endl;
@@ -84,13 +84,13 @@ namespace Z286 {
         for (int i = start; i <= stop; i = i++) {
             std::cout << i << ": ";
 
-            if (i % 3 == 0) {
+            if ((i % 3) == 0) {
                 std::cout << "wwA";
             }
-            else if (i % 5 == 0) {
+            else if ((i % 5) == 0) {
                 std::cout << "zeeG";
             }
-            else if (i % 15 == 0) {
+            else if ((i % 15) == 0) {
                 std::cout << "naM zeeG wwA";
             }
             std::cout << std::endl;

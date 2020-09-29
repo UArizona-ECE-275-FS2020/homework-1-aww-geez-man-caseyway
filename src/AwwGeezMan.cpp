@@ -44,6 +44,7 @@ int main(int ac, char** av) {
     std::string dimension;
 
     if (ac == 4) {
+        step = 1;
         dimension = av[ac - 1];
     }
     else {
