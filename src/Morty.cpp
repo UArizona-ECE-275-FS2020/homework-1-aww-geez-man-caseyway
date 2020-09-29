@@ -22,14 +22,16 @@ namespace C137 {
             std::cout << i << ": ";
 
             if ((i % 3) == 0) {
+                if ((i % 5) == 0) {
+                    std::cout << "Aww Geez Man";
+                }
+                else
                 std::cout << "Aww";
             }
             else if ((i % 5) == 0) {
                 std::cout << "Geez";
             }
-            else if ((i % 15) == 0) {
-                std::cout << "Aww Geez Man";
-            }
+
             std::cout << std::endl;
         }
     }
@@ -41,13 +43,14 @@ namespace C137 {
             std::cout << i << ": ";
 
             if ((i % 3) == 0) {
+                if ((i % 5) == 0) {
+                    std::cout << "Aww Geez Man";
+                }
+                else
                 std::cout << "Aww";
             }
             else if ((i % 5) == 0) {
                 std::cout << "Geez";
-            }
-            else if ((i % 15) == 0) {
-                std::cout << "Aww Geez Man";
             }
             std::cout << std::endl;
         }
@@ -66,13 +69,14 @@ namespace Z286 {
             std::cout << i << ": ";
 
             if ((i % 3) == 0) {
+                if ((i % 5) == 0) {
+                    std::cout << "naM zeeG wwA";
+                }
+                else
                 std::cout << "wwA";
             }
             else if ((i % 5) == 0) {
                 std::cout << "zeeG";
-            }
-            else if ((i % 15) == 0) {
-                std::cout << "naM zeeG wwA";
             }
             std::cout << std::endl;
         }
@@ -85,13 +89,14 @@ namespace Z286 {
             std::cout << i << ": ";
 
             if ((i % 3) == 0) {
+                if ((i % 5) == 0) {
+                    std::cout << "naM zeeG wwA";
+                }
+                else
                 std::cout << "wwA";
             }
             else if ((i % 5) == 0) {
                 std::cout << "zeeG";
-            }
-            else if ((i % 15) == 0) {
-                std::cout << "naM zeeG wwA";
             }
             std::cout << std::endl;
         }
